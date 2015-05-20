@@ -1,23 +1,24 @@
 {
-	"name": "svf-users",
-	"version": "0.0.0",
-	"appPath": "app",
-	"dependencies": {
-		"angular": "master",
-		"angular-sanitize": "master",
-		"angular-animate": "master",
-		"angular-touch": "master",
-		"angular-ui-router": "~0.2.14",
-		"foundation": "~5.5.2",
-		"angular-foundation": "~0.6.0",
-		"js-data": "~1.8.0",
-		"js-data-firebase": "~1.1.1",
-		"js-data-schema": "~1.2.4",
-		"js-data-angular": "~2.4.0",
-		"firebase": "~2.2.4",
-		"angularfire": "~1.1.1"
-	},
-	"resolutions": {
-		"angular": "1.4.0-build.3996+sha.13e38db"
-	}
+  "name": "svf-users",
+  "version": "0.0.0",
+  "appPath": "app",
+  "dependencies": {
+    "angular": "master",
+    "angular-sanitize": "master",
+    "angular-animate": "master",
+    "angular-touch": "master",
+    "angular-ui-router": "~0.2.14",
+    "foundation": "~5.5.2",
+    "angular-foundation": "~0.6.0",
+    "js-data": "~1.8.0",
+    "js-data-firebase": "~1.1.1",
+    "js-data-schema": "~1.2.4",
+    "js-data-angular": "~2.4.0",
+    "firebase": "~2.2.4",
+    "angularfire": "~1.1.1",
+    "geofire": "~3.2.2"
+  },
+  "resolutions": {
+    "angular": "1.4.0-build.3996+sha.13e38db"
+  }
 }

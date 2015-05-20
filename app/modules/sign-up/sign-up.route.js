@@ -6,10 +6,10 @@
 		.config(function ($stateProvider) {
 
 			var SignUp = {
-				name: 'application.sign-up',
+				name: 'public.sign-up',
 				url: '/sign-up',
 				views: {
-					'content@application': {
+					'content': {
 						templateUrl: 'modules/sign-up/sign-up.template.html',
 						controller: 'SignUp',
 						controllerAs: 'signUp'

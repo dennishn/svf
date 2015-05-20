@@ -6,10 +6,10 @@
 		.config(function ($stateProvider) {
 
 			var Index = {
-				name: 'application.index',
+				name: 'public.index',
 				url: '/',
 				views: {
-					'content@application': {
+					'content': {
 						templateUrl: 'modules/index/index.template.html',
 						controller: 'Index',
 						controllerAs: 'index'

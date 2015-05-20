@@ -29,6 +29,9 @@
 'UserMapping',
 'sign-up',
 'profile',
+'geolocation',
+'public',
+'location',
 			/* ---> Do not delete this comment (ngImports) <--- */
 	]);
 })();
