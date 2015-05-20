@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.jshintrc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/common/auth/auth.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/common/auth/auth.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/common/auth/firebaseauth.factory.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/common/auth/firebaseauth.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/common/schemator/schemator.constant.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/common/schemator/schemator.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/config/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/config/config.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/config/run.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/user/user.factory.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/user/user.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/user/usermapping.factory.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/_application/application.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/_application/application.route.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/_application/application.template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/home/home.route.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/index/index.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/index/index.route.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/index/index.template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/profile/profile.route.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/profile/profile.template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/sign-up/sign-up.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/sign-up/sign-up.route.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/modules/sign-up/sign-up.template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/main.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/notes.md" charset="UTF-8" />
+  </component>
+</project>

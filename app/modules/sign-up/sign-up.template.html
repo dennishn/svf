@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="large-12 columns">
+		<div class="row collapse">
+			<div class="small-3 columns">
+				<img ng-src="{{signUp.newUser.picture}}"/>
+			</div>
+			<div class="small-9 columns">
+				Hi {{signUp.newUser.fullName()}}, please provide a username to get started.
+			</div>
+		</div>
+	</div>
+	<div class="large-12 columns">
+		<form ng-submit="signUp.createUser()">
+
+			<div class="row collapse">
+				<div class="large-12 columns">
+					<label>
+						Username
+						<input type="text" ng-model="signUp.newUser.username"/>
+					</label>
+				</div>
+			</div>
+			<button type="submit">Continue</button>
+		</form>
+
+	</div>
+</div>

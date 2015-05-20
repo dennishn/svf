@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<base href="/">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<!-- build:css(.tmp) styles/main.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- endbuild -->
+	</head>
+	<body ng-app="svfUsers">
+
+		<!-- Application Entry: -->
+		<div ui-view="application"></div>
+
+		<!-- build:js(.) scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="bower_components/modernizr/modernizr.js"></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/angular-touch/angular-touch.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/foundation/js/foundation.js"></script>
+		<script src="bower_components/angular-foundation/mm-foundation-tpls.js"></script>
+		<script src="bower_components/js-data/dist/js-data.js"></script>
+		<script src="bower_components/firebase/firebase.js"></script>
+		<script src="bower_components/js-data-firebase/dist/js-data-firebase.js"></script>
+		<script src="bower_components/js-data-schema/dist/js-data-schema.js"></script>
+		<script src="bower_components/js-data-angular/dist/js-data-angular.js"></script>
+		<script src="bower_components/angularfire/dist/angularfire.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="config/app.js"></script>
+        <script src="config/config.js"></script>
+        <script src="config/environment.js"></script>
+        <script src="config/run.js"></script>
+        <script src="modules/_application/application.module.js"></script>
+        <script src="modules/_application/application.route.js"></script>
+        <script src="modules/_application/application.controller.js"></script>
+        <script src="modules/index/index.module.js"></script>
+        <script src="modules/index/index.route.js"></script>
+        <script src="modules/index/index.controller.js"></script>
+        <script src="common/auth/firebaseauth.module.js"></script>
+        <script src="common/auth/firebaseauth.factory.js"></script>
+        <script src="modules/home/home.module.js"></script>
+        <script src="modules/home/home.route.js"></script>
+        <script src="modules/home/home.controller.js"></script>
+        <script src="common/auth/auth.module.js"></script>
+        <script src="common/auth/auth.service.js"></script>
+        <script src="models/user/user.module.js"></script>
+        <script src="models/user/user.factory.js"></script>
+        <script src="common/schemator/schemator.module.js"></script>
+        <script src="common/schemator/schemator.constant.js"></script>
+        <script src="models/user/usermapping.module.js"></script>
+        <script src="models/user/usermapping.factory.js"></script>
+        <script src="modules/sign-up/sign-up.module.js"></script>
+        <script src="modules/sign-up/sign-up.route.js"></script>
+        <script src="modules/sign-up/sign-up.controller.js"></script>
+        <script src="modules/profile/profile.module.js"></script>
+        <script src="modules/profile/profile.route.js"></script>
+        <script src="modules/profile/profile.controller.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
